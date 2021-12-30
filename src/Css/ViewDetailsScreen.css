@@ -1,0 +1,403 @@
+/** @format */
+
+.view_customer_sale_section {
+  float: left;
+  width: 100%;
+}
+.view_customer_sale_body_detail_one {
+  float: left;
+  width: 100%;
+  padding: 30px 10px;
+  box-shadow: 1px 3px 4px #aaa;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.view_customer_sale_selection_fields {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.view_customer_sale_selection_box {
+  display: flex;
+  gap: 20px 15px;
+  align-items: center;
+}
+.view_customer_sale_selection_box .customer_sale_single_selection_box select {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+  width: 200px;
+}
+.customer_sale_single_between_selection_box {
+  display: flex;
+  gap: 10px 15px;
+  align-items: center;
+  border: 1px solid #667eea;
+}
+.customer_sale_single_between_selection_box h6 {
+  margin: 0px;
+  background: #667eea;
+  color: #fff;
+  padding: 10px 10px;
+}
+.customer_sale_single_between_selection_box input {
+  height: 100%;
+  border: none;
+  outline: none;
+  width: 100px;
+  font-size: 11px;
+}
+
+.view_customer_sale_reports_box {
+  display: flex;
+  gap: 10px 20px;
+}
+.view_customer_sale_reports_box a {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 7px 0px;
+  cursor: pointer;
+  align-items: center;
+}
+.view_customer_sale_reports_box a i {
+  font-size: 16px;
+  color: #667eea;
+}
+.view_customer_sale_reports_box a span {
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+}
+
+.view_customer_sale_counting_field {
+  display: flex;
+  gap: 10px 10px;
+  align-items: center;
+}
+.view_customer_sale_counting_field_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  background: -moz-linear-gradient(left, #667eea 0%, #764ba2 100%);
+  background: -webkit-linear-gradient(left, #667eea 0%, #764ba2 100%);
+  background: -ms-linear-gradient(left, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(to right, #667eea 0%, #7f56a8 100%);
+  border-bottom: 1px solid transparent;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+  color: #fff;
+  min-width: 150px;
+}
+.view_customer_sale_counting_field_box span {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.view_customer_sale_counting_field_plus_box i {
+  font-size: 16px;
+}
+
+.view_customer_sale_product_invoice_detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.view_customer_sale_product_invoice_search_filter {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+}
+.view_customer_sale_product_invoice_table_header span {
+  font-size: 16px;
+  text-transform: uppercase;
+  float: left;
+  padding-bottom: 15px;
+}
+
+.product_invoice_search_filter {
+  position: relative;
+}
+.product_invoice_search_filter i {
+  position: absolute;
+  content: "";
+  display: flex;
+  align-items: center;
+  height: 100%;
+  left: 8px;
+  top: 0px;
+}
+
+.product_invoice_search_filter select,
+.product_invoice_search_filter input {
+  padding: 0px 0px 0px 34px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+  width: 200px;
+  height: 40px;
+}
+.view_customer_sale_product_invoice_add_sale button {
+  background-color: #667eea;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.view_customer_sale_product_invoice_list table {
+  padding-bottom: 12px;
+}
+.view_customer_sale_product_invoice_list table tr td {
+  border-right: 2px solid #cecece;
+  padding: 15px 10px;
+}
+.view_customer_sale_product_invoice_list table tr td input {
+  height: 100%;
+  background: transparent;
+  width: 100%;
+  border: none;
+  padding: 0px 10px;
+}
+.view_customer_sale_product_invoice_list table tr td span {
+  padding: 0px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+.view_customer_sale_product_invoice_list table tr td select {
+  height: 100%;
+  background: transparent;
+  width: 100%;
+  border: none;
+  padding: 0px 10px;
+}
+
+.view_customer_sale_product_invoice_list table tr th {
+  border-right: 2px solid #cecece;
+}
+.view_customer_sale_product_invoice_list {
+  float: left;
+  width: 100%;
+  padding: 30px 0px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.view_customer_sale_product_invoice_list table {
+  width: 100%;
+  margin-bottom: 15px;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+.view_customer_sale_product_invoice_list table .table_header {
+  box-shadow: 0 0 3px #e5e5e5;
+  color: rgb(51, 51, 51) !important;
+  background: #fff;
+}
+.view_customer_sale_product_invoice_list .table_body {
+  background: #fff;
+}
+.view_customer_sale_product_invoice_list table tr th {
+  align-items: center;
+  text-align: left;
+  color: #232323;
+  font-size: 14px;
+  padding: 10px 15px 10px 15px;
+  min-width: 160px;
+}
+.view_customer_sale_product_invoice_list table tr td {
+  text-align: left;
+  color: #252525;
+  font-size: 14px;
+  padding: 10px 15px 10px 15px;
+  border-bottom: 1px solid #f0f0f0;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  text-transform: capitalize;
+}
+.view_customer_sale_product_invoice_list .table_body:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.view_customer_sale_product_invoice_table {
+  overflow: scroll;
+}
+
+/* Works on Firefox  */
+.view_customer_sale_product_invoice_table {
+  scrollbar-width: thin;
+  scrollbar-color: #d6dee1 #fff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.view_customer_sale_product_invoice_table::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.view_customer_sale_product_invoice_table::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255, 0.9);
+  opacity: 0.8;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+  border: none;
+}
+.view_customer_sale_product_invoice_table::-webkit-scrollbar-thumb {
+  background: #667eea;
+  background: -moz-linear-gradient(bottom, #667eea 0%, #764ba2 100%);
+  background: -webkit-linear-gradient(bottom, #667eea 0%, #764ba2 100%);
+  background: -ms-linear-gradient(bottom, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(to top, #667eea 0%, #764ba2 100%);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-clip: content-box;
+}
+
+.sale_invoice_action_btn {
+  text-align: right !important;
+  position: relative;
+}
+.sale_invoice_action_btn button {
+  border: none !important;
+  background-color: unset !important;
+}
+.sale_invoice_action_btn button i {
+  cursor: pointer;
+  font-size: 16px;
+}
+.sale_invoice_action_btn button::after {
+  display: unset !important;
+  width: unset !important;
+  height: unset !important;
+  margin-left: unset !important;
+  vertical-align: unset !important;
+  content: unset !important;
+  border-top: unset !important;
+  border-right: unset !important;
+  border-bottom: unset !important;
+  border-left: unset !important;
+}
+.sale_invoice_do_action {
+  position: absolute;
+  min-width: 115px !important;
+  background: #ffffff !important;
+  right: 12px;
+  top: 18px;
+  border: 1px solid #d8d8d8;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px 10px !important;
+  justify-content: center;
+  margin: 0px !important;
+  gap: 10px 0px;
+  transform: translate3d(12px, 20px, 0px) !important;
+}
+.sale_invoice_do_action a {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 0px 10px;
+}
+.sale_invoice_do_action a span {
+  padding: 0px !important;
+  font-weight: 400 !important;
+}
+.fields_with_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sale-title {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  color: blue;
+}
+
+/*Tablet*/
+@media (min-width: 1025px) and (max-width: 1050px) {
+  .view_customer_sale_selection_fields {
+    flex-direction: column-reverse;
+    gap: 20px 0px;
+  }
+  .view_customer_sale_reports_box {
+    justify-content: right;
+  }
+}
+/*mobile rotation*/
+@media (max-width: 880px) {
+  .view_customer_sale_selection_fields {
+    flex-direction: column-reverse;
+    gap: 20px 0px;
+  }
+  .view_customer_sale_reports_box {
+    justify-content: right;
+  }
+}
+
+/*mobile rotation*/
+@media (max-width: 767px) {
+  .view_customer_sale_selection_box {
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .customer_sale_single_selection_box {
+    width: 100%;
+  }
+  .view_customer_sale_selection_box .customer_sale_single_selection_box select {
+    width: 100%;
+  }
+  .customer_sale_single_between_selection_box {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 540px) {
+  .view_customer_sale_selection_fields {
+    padding-bottom: 30px;
+  }
+  .customer_sale_single_between_selection_box {
+    flex-direction: column;
+    width: 100%;
+  }
+  .customer_sale_single_between_selection_box h6 {
+    width: 100%;
+    text-align: center;
+  }
+  .customer_sale_single_between_selection_box input {
+    width: 100%;
+    padding: 5px 10px;
+  }
+  .view_customer_sale_counting_field {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .view_customer_sale_product_invoice_detail {
+    align-items: flex-start;
+    padding-bottom: 20px;
+    flex-direction: column-reverse;
+    gap: 20px 0px;
+  }
+}

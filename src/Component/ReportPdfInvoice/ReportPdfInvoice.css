@@ -1,0 +1,280 @@
+.sale_invoice_printing_page_section{
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+    }
+.sale_invoice_container{
+max-width: 800px;
+margin: 0 auto;
+}
+.sale_invoice_printing_page_box{
+float: left;
+width: 100%;
+background-color: #fff;
+}
+.report_pdf_modal_header{
+    padding: 6px 10px !important;
+display: flex;
+align-items: center;
+}
+.report_pdf_modal_header button{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.report_pdf_modal_header h5{
+font-size: 16px;
+}
+.report_pdf_modal_footer{
+    padding: 10px 0px 0px 0px !important;
+}
+.owner_detail_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.owner_contact_box{
+display: flex;
+flex-direction: column;
+gap: 8px 0px;
+}
+.owner_contact_box h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #393939;
+    margin: 0px;
+}
+.owner_contact_box span{
+    font-size: 14px;
+    color: #393939;
+    }
+.owner_picture_box figure{
+width: 50px;
+height: 50px;
+margin: 0px;
+}
+.owner_picture_box figure img{
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    height: 100%;
+    background-color: #fff;
+}
+.report_invoice_text{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.report_invoice_text span{
+    color: #667eea;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.customer_contact_section{
+    display: block;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.customer_contact_section h6{
+display: flex;
+width: 100%;
+font-size: 16px;
+font-weight: 500;
+color: #393939;
+padding-bottom: 10px;
+margin:0px;
+}
+.customer_contact_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.customer_contact_info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0px;
+}
+.customer_contact_fields{
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0px;
+}
+.customer_contact_fields h5{
+font-size: 14px;
+font-weight: 500;
+color: #393939;
+margin:0px;
+}
+.customer_contact_fields span{
+    font-size: 16px;
+    font-weight: normal;
+    color: #393939;
+    margin:0px;
+    }
+    .customer_contact_fields .customer_address{
+    max-width: 185px;
+}
+
+
+.customer_purchase_item_list{
+display: block;
+width: 100%;
+padding-bottom: 15px;
+}
+
+.customer_purchase_item_list table{
+    width: 100%;
+  margin-bottom: 15px;
+  table-layout: auto;
+  border-collapse: collapse;
+  margin: 0px;
+  }
+  .customer_purchase_item_list table .table_header{
+    box-shadow: 0 0 3px #e5e5e5;
+    color: rgb(51, 51, 51) !important;
+    background: #fff;
+  }
+  .customer_purchase_item_list table tr{
+    box-shadow: 0 0 3px #e5e5e5;
+}
+.customer_purchase_item_list table .table_body{
+    background: #fff;
+}
+.customer_purchase_item_list table .table_body:nth-of-type(even) {
+    background-color: rgba(0,0,0,.05);
+}
+
+  .customer_purchase_item_list table tr th{
+    align-items: center;
+    text-align:left;
+    color: #232323;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    /* min-width: 160px; */
+}
+
+.customer_purchase_item_list table tr td{
+     
+    align-items: center;
+    text-align: left;
+    color: #252525;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+   text-transform: capitalize;
+}
+.customer_invoice_amount_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px 15px;
+    width: 100%;
+    padding-bottom:15px ;
+}
+.customer_invoice_amount_in_word{
+display: flex;
+flex-direction: column;
+gap: 15px 0px;
+width: 100%;
+}
+.customer_invoice_amount_in_word_box{
+    display: flex;
+    flex-direction: column;
+    gap:5px 0px;
+    width: 100%;
+}
+.customer_invoice_amount_in_word_box h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.customer_invoice_amount_in_word_box span{
+text-transform: capitalize;
+font-size: 14px;
+}
+.customer_invoice_total_amount{
+    display: flex;
+    flex-direction: column;
+
+}
+.customer_invoice_total_amount_box{
+display: flex;
+justify-content: space-between;
+gap: 5px 10px;
+padding: 5px 5px;
+}
+.customer_invoice_total_amount_box span{
+    margin: 0px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #000;
+}
+.total_color_box{
+background-color: #667eea;
+
+}
+.total_color_box span{
+    color: #fff !important;
+}
+
+
+@media (max-width: 540px) {
+    .customer_purchase_item_list {
+        margin-bottom: 15px;
+    }
+    .customer_purchase_item_list {
+        overflow: scroll;
+    }
+    .customer_contact_box {
+        flex-direction: column;
+        gap: 10px 0px;
+    }
+    .customer_contact_section h6 {
+        font-size: 14px;
+    }
+    .customer_contact_fields span {
+        font-size: 12px;
+    }
+
+    .customer_invoice_amount_section {
+
+        grid-template-columns: 1fr;
+}
+.customer_invoice_amount_in_word_box h4 {
+    font-size: 14px;
+}
+.customer_invoice_amount_in_word_box span {
+    font-size: 12px;
+}
+.customer_purchase_item_list table tr td {
+  
+    font-size: 12px;
+}
+
+.customer_purchase_item_list table tr th {
+    font-size: 12px;
+}
+
+.owner_contact_box h3 {
+    font-size: 16px;
+}
+.owner_contact_box span {
+    font-size: 12px;
+}
+.owner_picture_box figure {
+    width: 40px;
+    height: 40px;
+}
+.report_invoice_text span {
+    font-size: 14px;
+}
+
+}

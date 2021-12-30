@@ -1,0 +1,77 @@
+.profit_loss_section{
+float: left;
+width: 100%;
+padding-bottom: 15px;
+}
+.profit_loss_section_head{
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.profit_loss_section_head h3{
+    font-size: 18px;
+    margin: 0px;
+    width: 100%;
+    font-weight: normal;
+    color: #000;
+    text-transform: uppercase;
+}
+.profit_loss_report_box{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.profit_loss_report_detail{
+display: flex;
+justify-content: space-between;
+width: 100%;
+background-color: #d5d5d5;
+padding: 10px 5px;
+box-shadow: 0 0 3px #e5e5e5;
+background-color: rgba(0,0,0,.05);
+}
+.profit_loss_report_detail:nth-of-type(even) {
+    box-shadow: 0 0 3px #e5e5e5;
+    background: #fff; 
+}
+.profit_loss_report_detail span{
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.profit_loss_report_gross_profit{
+    justify-content: space-between;
+width: 100%;
+background-color: #d5d5d5;
+padding: 10px 5px;
+box-shadow: 0 0 3px #e5e5e5;
+background-color: rgba(0,0,0,.05);
+display: flex;
+border-top: 1px solid rgb(0, 0, 0);
+border-bottom: 1px solid rgb(0, 0, 0);
+}
+.profit_loss_report_gross_profit span{
+    font-size: 14px;
+    color: rgb(51, 51, 51) !important;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.profit_loss_report_detail_child{
+    padding-left: 10px;
+}
+
+.profit_report{
+color: green !important;
+}
+.loss_report{
+    color: red !important;
+}
+
+
+@media (max-width: 320px) {
+    .profit_loss_report_detail span {
+        font-size: 12px;
+    }    
+
+}

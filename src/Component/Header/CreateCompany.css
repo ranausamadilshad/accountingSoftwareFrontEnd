@@ -1,0 +1,214 @@
+.create_company_container{
+    max-width: 700px !important;
+    margin: 0px auto;
+}
+
+ .create_company_form_fields{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px 15px;
+    }
+    
+.create_company_field{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ". .";
+    grid-template-rows: auto;
+    gap: 25px 40px;
+}
+.create_company_field .create_company_figure{
+    display: flex;
+    align-items: center;
+}
+.create_company_figure > figure{
+position: relative;
+height: 140px;
+width: 140px;
+margin: 0px;
+}
+.create_company_figure figure img{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+.create_company_field figure .change_pic{
+position: absolute;
+bottom: 0px;
+text-align: center;
+align-items: center;
+display: flex;
+width: 140px;
+justify-content: center;
+height: 40px;
+overflow: hidden;
+opacity: 0.9;
+background-color: #fff !important;
+
+}
+.create_company_field figure .change_pic label{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.create_company_field figure .change_pic input[type="file"] {
+    display: none;
+}
+
+    .create_company_section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0px;
+    }
+    .create_company_section .profile_name{
+        display: flex;
+        flex-direction: column;
+        gap: 10px 0px;
+    }
+    
+    .create_company_section .profile_name label{
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    color: #232323;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: left;
+    margin: 0px;
+    }
+    .create_company_section .profile_name label .mandatory{
+        font-size: 16px;
+        color: red;
+        font-weight: bold;
+        line-height: 16px;
+        margin: 0px;
+        }
+        .create_company_section .profile_name label .Optional{
+            font-size: 16px;
+            color: #232323;
+            font-weight: bold;
+            line-height: 16px;
+            margin: 0px;
+            }
+
+ .create_company_section .profile_name input{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+     outline: none;
+     width: 100%;
+    }
+   .create_company_section .profile_name input:focus{
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 50%);
+    outline: 1px solid #5696dbd4;
+     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .create_company_section .profile_name textarea{
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+         outline: none;
+         width: 100%;
+        }
+       .create_company_section .profile_name textarea:focus{
+        box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 50%);
+        outline: 1px solid #5696dbd4;
+         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+.create_company_detail_box{
+    border-bottom: 2px solid #cecece;
+    display: block;
+    width: 100%;
+    padding-bottom:10px ;
+}
+.create_company_detail_box h5{
+   color: #007bff;
+   margin: 0px;
+   float: left;
+   position: relative;
+}
+.create_company_detail_box h5::after{
+    position: absolute;
+    content: "";
+    border-bottom: 4px solid #007bff;
+    width: 100%;
+    left: 0px;
+    bottom: -12px;
+}
+ .profile_name > .signature_img{
+    width: 100%;
+    height: 120px;
+    position: relative;
+    border-radius: 4px;
+    margin: 0px;
+    border: 2px dotted gray;
+}
+
+.profile_name .signature_img img{
+    width: 100%;
+    height: 100%;    
+    display: block; 
+} 
+.signature_img .upload_signature{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    opacity: 0.9;
+    background-color: #fff !important;
+    width: 100%;
+}
+.signature_img .upload_signature label{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #bdbdbd;
+    color: #ffff;
+}
+.signature_img .upload_signature input[type="file"] {
+    display: none;
+}
+/*mobile rotation*/
+@media (max-width: 767px) {
+
+    .create_company_modal_content {
+    margin: 0px 10px;
+}
+
+}
+
+/*mobile rotation*/
+@media (max-width: 540px) {
+
+.create_company_field {
+    grid-template-columns: 1fr;
+    grid-template-areas: ".";
+}
+.create_company_field .create_company_figure{
+    justify-content: center;
+} 
+}

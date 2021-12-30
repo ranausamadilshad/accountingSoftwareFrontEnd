@@ -1,0 +1,184 @@
+.add_customer_sale_section {
+  float: left;
+  width: 100%;
+}
+.add_customer_sale_header {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 3px 4px #aaa;
+  padding: 0px 10px;
+  gap: 0px 15px;
+  height: 40px;
+  align-items: center;
+}
+.add_customer_sale_header_property {
+  display: flex;
+  gap: 0px 10px;
+}
+.add_customer_sale_header_property a {
+  color: black;
+  padding: 0px;
+}
+.add_customer_sale_header_property .active {
+  color: #007bff;
+}
+.add_customer_sale_header h5 {
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0px;
+  line-height: 14px;
+  border-right: 2px solid black;
+  padding-right: 15px;
+}
+
+.add_customer_sale_body_detail_one {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+.customer_sale_body_select_field {
+  width: 200px !important;
+}
+.add_party_cash_btn {
+  padding-bottom: 15px;
+}
+
+.search_customer_in_sale {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: ". .";
+  grid-template-rows: auto;
+  gap: 25px 40px;
+}
+.customer_sale_product_list form table {
+  padding-bottom: 12px;
+}
+.customer_sale_product_list table tr td {
+  border-right: 2px solid #cecece;
+  height: 40px;
+  padding: 0px;
+}
+.customer_sale_product_list table tr td input {
+  height: 100%;
+  background: transparent;
+  width: 100%;
+  border: none;
+  padding: 0px 10px;
+}
+.customer_sale_product_list table tr td span {
+  padding: 0px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+.customer_sale_product_list table tr td select {
+  height: 100%;
+  background: transparent;
+  width: 100%;
+  border: none;
+  padding: 0px 10px;
+}
+/* .customer_sale_product_list table tr td:last-child {
+        border: none;
+    }
+    .customer_sale_product_list table tr th:last-child {
+        border: none;
+    } */
+    .customer_sale_product_list table tr th {
+        border-right: 2px solid #cecece;
+    }
+    
+    .customer_sale_total_calculation{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 30px 0px;
+        gap: 15px 10px;
+    }
+    .customer_sale_total_calculation_discount_box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+    }
+    .customer_sale_total_calculation_discount_box label{
+        width: 100%;
+        display: block;
+        font-size: 16px;
+        color: #232323;
+        font-weight: bold;
+        line-height: 16px;
+        text-align: left;
+        margin: 0px;
+    }
+    .customer_sale_total_calculation_discount_box_detail{
+    display: flex;
+    gap: 15px 10px;
+    }
+    
+    .customer_sale_total_calculation_discount_box_detail input {
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        outline: none;
+        width: 120px;
+    }
+    .customer_sale_total_calculation_price_box{
+        display: flex;
+        width: 100%;
+        justify-content: right;
+    }
+    .total_calculation_price_box{
+        width: 200px;
+        
+    }
+    .parties_transaction_table_field{
+        overflow: scroll;
+        width: 100%;
+        padding-bottom: 2px;
+        margin-bottom: 25px;
+    }
+    
+    
+    /*mobile rotation*/
+    @media (max-width: 767px) {
+     
+        
+    .search_customer_in_sale{
+       
+        grid-template-columns: 1fr;
+        grid-template-areas: ".";
+      
+    }
+    
+    
+    
+    }
+    
+    @media (max-width: 540px) {
+        .customer_sale_body_select_field {
+            width: 100% !important;
+        }
+    
+        .add_customer_sale_body_detail_one {
+    flex-direction: column;
+    gap:20px 0px ;
+        }
+        .customer_sale_total_calculation {
+            flex-direction: column;
+        }
+        .customer_sale_total_calculation_price_box {
+            justify-content: left;
+        }
+    }

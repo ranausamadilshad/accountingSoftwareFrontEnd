@@ -1,0 +1,86 @@
+/** @format */
+
+.item_profile_data {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  gap: 15px 10px;
+  padding: 15px;
+  box-shadow: 1px 3px 4px #aaa;
+}
+.item_profile_name_field {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px 10px;
+}
+.item_profile_name_field h3 {
+  font-size: 18px;
+  margin: 0px;
+}
+.item_profile_name_field button {
+  border: none;
+  border-radius: 4px;
+  background-color: #667eea;
+  color: #fff;
+  font-size: 17px;
+  padding: 16px 21px 16px 43px;
+  font-weight: 600;
+  position: relative;
+  outline: #667eea;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.item_profile_name_field button i {
+  position: absolute;
+  content: "";
+  left: 18px;
+  color: #fff;
+  font-size: 17px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-weight: 600;
+  top: 0px;
+}
+
+.item_profile_data_all_other_field {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px 10px;
+}
+.item_profile_data_all_other_field_detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+.item_profile_data_all_other_field_detail_box {
+  display: flex;
+  gap: 10px 5px;
+  align-items: center;
+}
+
+.item_profile_data_all_other_field_detail_box p {
+  margin: 0px;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.item_profile_data_all_other_field_detail_box span {
+  margin: 0px;
+  color: green;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+@media (max-width: 540px) {
+  .item_profile_name_field {
+    flex-direction: column-reverse;
+  }
+  .item_profile_data_all_other_field {
+    flex-direction: column;
+  }
+}
